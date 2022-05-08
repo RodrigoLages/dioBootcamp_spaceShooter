@@ -17,6 +17,27 @@ body {
   width: 600px;
 }
 
+#score {
+  position: absolute;
+  width: auto;
+  top: 50px;
+}
+
+#game-instructions {
+  position: relative;
+  color: white;
+  left: 9rem;
+  top: 0;
+}
+
+#start-button {
+  position: relative;
+  color: white;
+  top: 9rem;
+  left: 15rem;
+  cursor: pointer;
+}
+
 #hero {
   position: relative;
   height: 60px;
@@ -29,4 +50,23 @@ body {
   position: relative;
   width: 40px;
   height: 30px;
+  left: 20px;
+}
+
+.alien {
+  height: 60px;
+  width: 70px;
+  position: relative;
+}
+
+.alien-transition {
+  opacity: 1;
+  transition: opacity 1.5s ease-in-out;
+}
+
+.dead-alien {
+  height: 60px;
+  width: 70px;
+  position: relative;
+  opacity: 0;
 }
