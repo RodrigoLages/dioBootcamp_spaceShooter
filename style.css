@@ -22,5 +22,11 @@ body {
   height: 60px;
   width: 70px;
   left: 20px;
-  top: 250px;
+  top: 240px;
+}
+
+.laser {
+  position: relative;
+  width: 40px;
+  height: 30px;
 }
